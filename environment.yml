@@ -1,0 +1,5 @@
+name: di501
+dependencies:
+  - python=3.9
+  - pandas>=1.3.0
+  - pip
