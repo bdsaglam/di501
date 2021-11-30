@@ -1,0 +1,201 @@
+﻿popcorn;age;gender;dayTime;children;genre
+27;19;F;Night;None;Fantasy
+24;20;M;Evening;None;Horror
+8;23;M;Night;None;Action
+34;24;F;Evening;None;Fantasy
+27;19;M;Night;None;Action
+19;20;F;Evening;None;Comedy
+31;27;F;Morning;Only one;Fantasy
+27;24;F;Night;None;Drama
+30;19;F;Noon;None;Drama
+36;25;M;Evening;More than 1;Fantasy
+27;20;M;Noon;None;Horror
+19;23;M;Night;None;Action
+25;19;F;Noon;None;Animation
+31;29;F;Evening;None;Horror
+28;23;M;Evening;None;Fantasy
+34;30;F;Night;Only one;Action
+33;30;F;Evening;None;Horror
+36;25;M;Morning;More than 1;Action
+49;38;M;Evening;More than 1;Animation
+22;22;M;Night;None;Fantasy
+24;19;M;Evening;None;Comedy
+19;23;M;Evening;None;Action
+27;18;F;Evening;None;Drama
+31;26;F;Evening;None;Horror
+25;19;M;Night;None;Action
+37;26;M;Evening;More than 1;Fantasy
+28;22;M;Noon;None;Animation
+37;26;M;Evening;More than 1;Action
+31;26;M;Night;Only one;Comedy
+24;18;M;Evening;None;Horror
+25;18;F;Evening;None;Fantasy
+27;18;F;Noon;None;Action
+21;21;F;Evening;None;Horror
+45;24;F;Noon;None;Drama
+30;19;F;Evening;None;Action
+33;24;F;Night;None;Horror
+24;22;F;Evening;None;Comedy
+28;20;M;Noon;None;Fantasy
+33;26;M;Evening;Only one;Action
+28;21;M;Morning;None;Fantasy
+27;23;F;Evening;None;Fantasy
+27;21;M;Night;None;Drama
+33;25;M;Evening;Only one;Action
+31;28;F;Night;Only one;Animation
+24;20;F;Night;None;Fantasy
+16;18;F;Evening;None;Horror
+16;22;F;Night;None;Action
+42;30;M;Noon;More than 1;Fantasy
+33;24;F;Evening;None;Action
+27;20;M;Night;None;Horror
+34;28;M;Evening;Only one;Animation
+7;37;F;Evening;None;Fantasy
+18;23;F;Night;None;Action
+27;20;F;Evening;None;Animation
+25;19;F;Morning;None;Action
+21;18;M;Noon;None;Fantasy
+30;23;M;Night;None;Horror
+34;25;M;Evening;Only one;Action
+31;27;F;Morning;None;Horror
+34;25;M;Evening;Only one;Comedy
+27;21;M;Night;None;Fantasy
+30;24;F;Evening;None;Action
+27;21;F;Noon;None;Drama
+39;30;M;Evening;More than 1;Action
+31;30;M;Night;Only one;Animation
+22;20;M;Noon;None;Action
+37;26;M;Evening;None;Horror
+27;18;F;Morning;None;Fantasy
+27;22;M;Night;None;Action
+22;24;M;Evening;None;Comedy
+24;22;M;Noon;None;Drama
+22;19;M;Morning;None;Fantasy
+34;24;F;Evening;None;Animation
+37;30;F;Night;More than 1;Action
+27;23;M;Evening;None;Action
+28;18;F;Night;None;Horror
+25;23;F;Noon;None;Fantasy
+37;25;M;Night;More than 1;Comedy
+33;26;M;Evening;Only one;Fantasy
+28;20;F;Morning;None;Action
+21;18;M;Evening;None;Drama
+22;22;F;Night;None;Fantasy
+39;26;M;Noon;None;Horror
+28;20;M;Evening;None;Fantasy
+30;18;F;Noon;None;Fantasy
+28;23;F;Evening;None;Action
+36;27;M;Night;More than 1;Action
+10;35;M;Morning;None;Fantasy
+13;45;M;Noon;None;Comedy
+28;22;F;Evening;None;Action
+34;26;M;Night;Only one;Animation
+36;30;F;Evening;None;Horror
+37;24;M;Night;None;Fantasy
+25;19;M;Noon;None;Action
+22;22;M;Morning;None;Action
+27;24;F;Night;None;Animation
+27;24;F;Evening;None;Action
+22;18;M;Night;None;Fantasy
+43;25;M;Noon;More than 1;Drama
+31;28;F;Night;Only one;Action
+22;20;F;Evening;None;Comedy
+25;24;F;Evening;None;Fantasy
+31;24;M;Night;None;Action
+34;26;M;Evening;Only one;Action
+19;18;M;Morning;None;Horror
+36;27;F;Night;More than 1;Action
+19;24;F;Evening;None;Fantasy
+24;20;M;Noon;None;Comedy
+34;26;M;Night;Only one;Comedy
+24;24;M;Evening;None;Fantasy
+28;21;F;Evening;None;Action
+27;18;M;Night;None;Animation
+22;23;F;Evening;None;Comedy
+24;19;M;Morning;None;Fantasy
+34;24;F;Night;None;Animation
+21;23;F;Evening;None;Action
+31;25;M;Night;Only one;Drama
+19;20;F;Evening;None;Fantasy
+43;30;F;Night;More than 1;Fantasy
+22;22;F;Night;None;Fantasy
+27;22;F;Night;None;Action
+42;24;F;Night;None;Horror
+5;39;F;Noon;None;Action
+25;24;M;Noon;None;Fantasy
+16;18;M;Night;None;Drama
+27;24;M;Evening;None;Comedy
+30;23;F;Night;None;Fantasy
+45;28;M;Noon;More than 1;Action
+27;23;M;Night;None;Comedy
+33;29;F;Noon;Only one;Action
+28;19;M;Evening;None;Fantasy
+16;18;M;Morning;None;Comedy
+25;22;F;Evening;None;Action
+42;29;M;Night;More than 1;Animation
+30;19;M;Evening;None;Fantasy
+28;24;M;Morning;None;Action
+34;30;M;Evening;Only one;Comedy
+31;25;M;Night;Only one;Action
+33;25;F;Evening;Only one;Action
+39;30;M;Evening;More than 1;Fantasy
+34;30;F;Noon;None;Horror
+21;20;M;Evening;None;Fantasy
+25;24;M;Night;None;Action
+22;18;F;Evening;None;Drama
+37;26;F;Night;More than 1;Action
+21;24;M;Evening;None;Fantasy
+28;18;F;Morning;None;Animation
+16;18;M;Evening;None;Action
+25;20;M;Evening;None;Comedy
+40;24;F;Evening;None;Fantasy
+19;22;F;Night;None;Action
+31;29;F;Evening;None;Horror
+28;24;F;Noon;None;Fantasy
+22;24;M;Evening;None;Drama
+39;26;M;Evening;None;Horror
+31;25;F;Noon;Only one;Action
+33;25;M;Night;Only one;Fantasy
+18;24;F;Evening;None;Comedy
+28;19;M;Night;None;Action
+37;25;F;Evening;More than 1;Fantasy
+43;26;F;Noon;More than 1;Drama
+34;30;F;Evening;Only one;Action
+24;18;M;Noon;None;Comedy
+30;24;F;Evening;None;Fantasy
+36;28;M;Night;More than 1;Animation
+45;24;M;Evening;None;Action
+27;21;M;Evening;None;Horror
+33;25;F;Evening;None;Horror
+21;21;M;Night;None;Fantasy
+21;18;M;Evening;None;Action
+30;19;M;Evening;None;Comedy
+24;23;F;Morning;None;Fantasy
+37;27;F;Noon;More than 1;Fantasy
+25;19;M;Night;None;Action
+25;18;F;Evening;None;Drama
+45;26;M;Noon;More than 1;Fantasy
+21;20;M;Evening;None;Action
+33;27;M;Evening;Only one;Drama
+31;26;F;Night;Only one;Fantasy
+27;23;F;Morning;None;Comedy
+28;18;M;Evening;None;Action
+34;28;F;Night;Only one;Fantasy
+31;25;M;Evening;None;Horror
+39;26;F;Noon;More than 1;Comedy
+27;19;M;Night;None;Action
+25;24;M;Evening;None;Drama
+24;23;M;Evening;None;Fantasy
+22;19;M;Night;None;Animation
+33;27;M;Morning;Only one;Action
+39;25;F;Noon;More than 1;Fantasy
+31;24;F;Evening;None;Comedy
+31;27;F;Evening;Only one;Action
+37;27;F;Evening;More than 1;Comedy
+22;23;M;Night;None;Action
+39;28;F;Evening;More than 1;Fantasy
+22;23;F;Evening;None;Horror
+37;25;F;Morning;None;Horror
+24;18;M;Night;None;Fantasy
+24;23;F;Evening;None;Drama
+19;21;F;Evening;None;Fantasy
