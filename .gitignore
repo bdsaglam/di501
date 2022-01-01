@@ -5,6 +5,8 @@
 *.log
 *.toc
 *.fls
+*.blg
+*.bbl
 __latexindent_temp.tex
 
 # Latexmk
