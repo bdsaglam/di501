@@ -260,8 +260,14 @@ Hence, $R^2$ score is:
 \end{itemize}
 Hence, $R^2$ score is a well-suited metric for regression problems. 
 
-The random forest regressor clearly outperforms linear regressor 
-by achieving 0.743 $R^2$ score and 0.412 MSE on the validation set.
+The linear regressor slightly outperforms random forest on the test set. 
+It can stated that the random forest regressor overfits to the data since its 
+validation and test scores are much worse than its train scores. We apply
+5x2cv paired test proposed by Dietterich \cite{Dietterich1998} with significance level $\alpha=0.1$ 
+to determine whether the difference between these two models' performances is statistically 
+significant. The $pvalue=0.9$ found with this statistical test is greater than $\alpha=0.1$; 
+hence, we cannot conclude that the linear regressor is significantly better than 
+then random forest regressor.
 
 \begin{table}[htbp]
     \caption{Model scores on train and validation sets}
@@ -270,10 +276,12 @@ by achieving 0.743 $R^2$ score and 0.412 MSE on the validation set.
     \hline
     {Model} & Set &  $R^2$ (higher is better) &  MSE (lower is better) \\
     \hline
-    Random Forest    & Train      & 0.945 & 0.087 \\
-                     & Validation & 0.734 & 0.412 \\
-    Linear Regressor & Train      & 0.665 & 0.562 \\
-                     & Validation & 0.564 & 0.750 \\
+    Random Forest    & Train      & 0.963 & 0.070 \\
+                     & Val & 0.743 & 0.491 \\
+                     & Test       & 0.610 & 0.563 \\
+    Lin. Reg.        & Train      & 0.781 & 0.419 \\
+                     & Val & 0.719 & 0.532 \\
+                     & Test       & 0.650 & 0.554 \\
     \hline
 \end{tabular}
 \label{table:model-scores}
