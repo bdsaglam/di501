@@ -13,6 +13,7 @@
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
 \begin{document}
 
 % Info
@@ -60,6 +61,7 @@ We investigate two research questions in this paper:
 \end{enumerate}
 For the first research question, we train and tune linear regression models, and random forest models.
 Then, we apply model explainability techniques to understand the contribution of each feature.
+
 
 \subsection{Literature Search}
 
@@ -172,8 +174,8 @@ prevent information leakage from training to evaluation.
 \subsection{Dimensionality reduction and feature selection}
 
 Since the target variable is \textit{OverallQual}, 
-we remove \textit{SalePrice} and \textit{SaleCondition} features from the dataset to prevent information leakage.
-Similarly, we ignore \textit{YrSold} and \textit{MoSold} featuers since the model's predictions should be independent of the sale date.
+we remove \textit{SalePrice} and \textit{SaleCondition} features from the dataset to prevent information leakage. 
+Similarly, we ignore \textit{YrSold} and \textit{MoSold} featuers since the model's predictions should be independent of the sale date. 
 
 To achieve a smaller and simpler model, we apply dimensionality reduction and feature selection on the dataset.
 For numerical variables, principal component analysis is performed and 
@@ -187,9 +189,9 @@ Hence, we reduce the all numerical variables to 3 dimension.
 \end{figure}
 
 Similarly, for ordinal and nominal variables, we calculate global feature importances with SHAP method. 
-We use TreeExplainer from \textit{shap} library \cite{tree-explainer} on the trained model with the validation dataset
+We use TreeExplainer from \textit{shap} library \cite{tree-explainer} on the trained model with the validation dataset 
 to compute Shapley values per data point per feature. Then, we calculate global feature 
-importances by taking absolute mean of Shapley values per feature across all data points.
+importances by taking absolute mean of Shapley values per feature across all data points. 
 As it's seen from Fig.~\ref{fig:shap-cumulative-feature-importance}, 17 categorical features cover 
 90\% of the contributions of all categorical features.
 \begin{figure}[htbp]
@@ -199,7 +201,7 @@ As it's seen from Fig.~\ref{fig:shap-cumulative-feature-importance}, 17 categori
 \end{figure}
 
 Therefore, we only use the most important ones of the categorical variables 
-listed in Table~\ref{table:shap-global-feature-importance} to train our model.
+listed in Table~\ref{table:shap-global-feature-importance} to train our model. 
 \begin{table}[htbp]
     \caption{SHAP - Global Feature Importance}
 \begin{center}
@@ -233,46 +235,45 @@ listed in Table~\ref{table:shap-global-feature-importance} to train our model.
 \subsection{Model training and evaluation}
 
 The dataset is split into train and validation sets with 80:20 ratio. 
-The test set is not used for training or model selection.
+The test set is not used for training or model selection. 
 
 A random forest model is a collection of decision trees under the hood. 
 It averages the predictions of all decision trees to make a prediction. 
-This reduces the variance in the model error.
+This reduces the variance in the model error. 
 We train random forest models with 5-fold cross validation and grid search of 
 hyper-parameter space with \textit{scikit-learn} library \cite{scikit-learn}. 
 Due to constraints on the computation resources available for the research, 
 18 different hyper-parameter configurations are used for random forest regressor. 
 We also train a linear regression model as a baseline. 
-R2 and mean squared error metrics are used to evaluate and compare models' performances during training. 
+$R^2$ and mean squared error metrics are used to evaluate and compare models' performances during training. 
 
-R2 metric is defined as 
-
+$R^2$ metric is defined as 
 \begin{equation}
     R^2(y, \hat{y}) = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2} \label{eq:r2}
 \end{equation}
 
-Hence, R2 score is:
+Hence, $R^2$ score is:
 \begin{itemize}
     \item 1 for a perfect model, always predicting the correct value
     \item 0 for a regression model that always predicts the sample mean
     \item negative for worse models
 \end{itemize}
-Hence, R2 score is a well-suited metric for regression problems. 
+Hence, $R^2$ score is a well-suited metric for regression problems. 
 
 The random forest regressor clearly outperforms linear regressor 
-by achieving 0.743 R2 score and 0.412 MSE on the validation set.
+by achieving 0.743 $R^2$ score and 0.412 MSE on the validation set.
 
 \begin{table}[htbp]
     \caption{Model scores on train and validation sets}
 \begin{center}
 \begin{tabular}{lrrr}
     \hline
-    {Model} & Set &  R2 (higher is better) &  MSE (lower is better) \\
+    {Model} & Set &  $R^2$ (higher is better) &  MSE (lower is better) \\
     \hline
-    Random Forest    & Train set      & 0.945 & 0.087 \\
-                     & Validation set & 0.734 & 0.412 \\
-    Linear Regressor & Train set      & 0.665 & 0.562 \\
-                     & Validation set & 0.564 & 0.750 \\
+    Random Forest    & Train      & 0.945 & 0.087 \\
+                     & Validation & 0.734 & 0.412 \\
+    Linear Regressor & Train      & 0.665 & 0.562 \\
+                     & Validation & 0.564 & 0.750 \\
     \hline
 \end{tabular}
 \label{table:model-scores}
@@ -325,7 +326,9 @@ for dimensionality reduction and feature selection respectively. We demonstrated
 SHAP method provides reasonable global and local explanations for the random forest
 regressor trained.
 
+\clearpage
+
 \bibliographystyle{IEEEtran}
-\bibliography{bibliography.bib}
+\bibliography{bibliography}
 
 \end{document}
